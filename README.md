@@ -1,6 +1,6 @@
 ![](./screenshot.png)
 
-This is a [Next.js](https://nextjs.org/) made following the metrics established by Rocketseat in the bora-codar challenge #32
+This is a [Next.js](https://nextjs.org/) project made following the metrics established by Rocketseat in the bora-codar challenge #32
 
 ## Getting Started
 
