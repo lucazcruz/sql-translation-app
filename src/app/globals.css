@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+*::-webkit-scrollbar {
+  width: 4px;
+}
+
+
+*::-webkit-scrollbar-thumb {
+  background-color: #07061D;
+  border-radius: 20px;
+}
+
+body {
+  background: #07061D;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+p {
+  color: #D7DAE2;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px;
+}
+
+textarea {
+  outline: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+}

@@ -1,0 +1,79 @@
+.main {
+  max-width: 430px;
+  padding: 67px 24px 18px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+}
+
+.schemaCode {
+  background: var(--8-lemon, rgba(194, 255, 184, 0.08));
+  border: 1px solid var(--20-guava, rgba(220, 255, 214, 0.20));
+  border-radius: 5px;
+
+  height: 164px;
+  overflow-y: scroll;
+
+  margin-top: 24px;
+}
+
+.responseCode {
+  background: var(--8-lemon, rgba(194, 255, 184, 0.08));
+  border: 1px solid var(--20-guava, rgba(220, 255, 214, 0.20));
+  border-radius: 5px;
+
+  height: 196px;
+  overflow-y: scroll;
+
+  margin-top: 24px;
+}
+
+.editor {
+  min-height: 100%;
+  color: #E2DFCD;
+  /* font-family: Ubuntu Mono; */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.question {
+  resize: none;
+  background: var(--8-lemon, rgba(194, 255, 184, 0.08));
+  border: 1px solid var(--20-guava, rgba(220, 255, 214, 0.20));
+  border-radius: 5px;
+  padding: 12px 28px 30px 16px;
+
+  height: 90px;
+  width: 100%;
+
+  color: rgba(255, 255, 255, 0.80);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+
+.primaryButton {
+  border-radius: 10px;
+  border: 1px solid var(--pistachio, #D3FFCC);
+  height: 53px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 10px;
+
+  color: #D3FFCC;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
